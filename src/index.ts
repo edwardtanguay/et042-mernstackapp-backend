@@ -1,7 +1,9 @@
 import express from 'express';
 import { getFlashcards } from './model.js';
+import cors from 'cors';
 
 const app = express();
+app.use(cors());
 const port = 3601;
 
 app.get('/', (req: express.Request, res: express.Response) => {
