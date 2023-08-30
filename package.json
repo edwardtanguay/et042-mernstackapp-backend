@@ -6,7 +6,9 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "nodemon",
-		"build": "tsc"
+		"build": "tsc",
+		"production": "node index.js",
+		"start": "npm run build && npm run production"
 	},
 	"nodemonConfig": {
 		"watch": [
