@@ -6,7 +6,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "nodemon",
-		"build": "tsc",
+		"build": "npm install && tsc",
 		"start": "node index.js"
 	},
 	"nodemonConfig": {
