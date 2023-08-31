@@ -3,7 +3,7 @@ export const getFlashcards = () => {
 		{
 			id: 1,
 			category: "git",
-			front: "change GitHub email",
+			front: "change GitHub email-222",
 			back: "git config --global user.email \"hans@nnn.com\""
 		},
 		{
